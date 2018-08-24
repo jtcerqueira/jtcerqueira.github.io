@@ -1,3 +1,3 @@
 # jtcerqueira.github.io
 personal github site
-This a branch for my site. Take a look at the main branch.
+This is a branch for my site. If you wsh to see more take a look at the main site. Have a great day. ;)
