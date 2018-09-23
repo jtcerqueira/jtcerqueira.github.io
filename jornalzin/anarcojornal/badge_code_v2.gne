@@ -1,0 +1,35 @@
+var b_txt = '';
+
+// Write a warning for the developer
+b_txt+= '<!-- DEVELOPER WARNING: The Flickr badge code is likely to be deprecated, and we recommend changing to a new method to embed photo as soon as possible.  See https://www.flickr.com/api for information on how to access Flickr data. Thanks. -->';
+
+// write the badge
+	
+	
+		 	 		
+	b_txt+= '<div class="flickr_badge_image" id="flickr_badge_image"><a href="http://www.flickr.com/photos/95857160@N06/14317525810/"><img src="http://farm6.staticflickr.com/5314/14317525810_93b07a048d_s.jpg" alt="Uma foto no Flickr" title="stikstofwolk" height="75" width="75"></a></div>';
+	
+		 	 		
+	b_txt+= '<div class="flickr_badge_image" id="flickr_badge_image"><a href="http://www.flickr.com/photos/95857160@N06/14504178155/"><img src="http://farm6.staticflickr.com/5497/14504178155_72281073bc_s.jpg" alt="Uma foto no Flickr" title="lijntje en kleurtje / lines and colors" height="75" width="75"></a></div>';
+	
+		 	 		
+	b_txt+= '<div class="flickr_badge_image" id="flickr_badge_image"><a href="http://www.flickr.com/photos/95857160@N06/14494877574/"><img src="http://farm4.staticflickr.com/3905/14494877574_e69b839252_s.jpg" alt="Uma foto no Flickr" title="CAM01161" height="75" width="75"></a></div>';
+	
+		 	 		
+	b_txt+= '<div class="flickr_badge_image" id="flickr_badge_image"><a href="http://www.flickr.com/photos/95857160@N06/14524332393/"><img src="http://farm4.staticflickr.com/3878/14524332393_2225583734_s.jpg" alt="Uma foto no Flickr" title="ontruiming de valreep" height="75" width="75"></a></div>';
+	
+		 	 		
+	b_txt+= '<div class="flickr_badge_image" id="flickr_badge_image"><a href="http://www.flickr.com/photos/41659357@N07/4109647339/"><img src="http://farm3.staticflickr.com/2503/4109647339_d375a98bd1_s.jpg" alt="Uma foto no Flickr" title="One model (well, nearly) from two different manifacturers" height="75" width="75"></a></div>';
+	
+		 	 		
+	b_txt+= '<div class="flickr_badge_image" id="flickr_badge_image"><a href="http://www.flickr.com/photos/harrymarmot/14496255461/"><img src="http://farm4.staticflickr.com/3874/14496255461_6fae570781_s.jpg" alt="Uma foto no Flickr" title="losvast" height="75" width="75"></a></div>';
+	
+		 	 		
+	b_txt+= '<div class="flickr_badge_image" id="flickr_badge_image"><a href="http://www.flickr.com/photos/87332843@N00/14175775797/"><img src="http://farm4.staticflickr.com/3846/14175775797_03c0f5af3f_s.jpg" alt="Uma foto no Flickr" title="The Bouhuys fleet" height="75" width="75"></a></div>';
+	
+		 	 		
+	b_txt+= '<div class="flickr_badge_image" id="flickr_badge_image"><a href="http://www.flickr.com/photos/87332843@N00/14510424714/"><img src="http://farm6.staticflickr.com/5587/14510424714_bc408c8f78_s.jpg" alt="Uma foto no Flickr" title="Model Waterlandse melkschuit" height="75" width="75"></a></div>';
+
+b_txt += '<span style="position:absolute;left:-999em;top:-999em;visibility:hidden" class="flickr_badge_beacon"><img src="http://geo.yahoo.com/p?s=792600102&t=df906386f12a75785091132d0ccc1c0e&fl_ev=0&lang=pt&intl=br" width="0" height="0" alt="" /></span>';
+
+document.write(b_txt);
